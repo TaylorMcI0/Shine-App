@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#header {
+    height: 6rem;
+}
+
+#title {
+    margin: 1rem;
+}
+
+#inpt {
+    border-radius: 1rem;
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+}
+
+#submit {
+    border-radius: 1rem;
+    height: 2rem;
+    width: 4rem;
+}
+
+.sect1 {
+    display: grid;
+    height: 80vh;
+}
+
+#bgimg {
+    position: absolute;
+}
+
+#city {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+#temp {
+    font-size: 7rem;
+}
+
+#cond {
+    font-size: 2rem;
+}
+
+#wind {
+    float: left;
+}
